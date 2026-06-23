@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Wodcast Sky — Elif Shafak",
+    "schemaVersion": 2,
+    "created": "2026-06-23T12:00:00.000Z",
+    "updated": "2026-06-23T12:00:00.000Z",
+    "activeLensId": "episode",
+    "isolatedCluster": null,
+    "preset": "lyrical"
+  },
+  "speakers": [
+    { "id": "s_elif", "name": "Elif Shafak", "role": "novelist", "color": "#7B5E8A" }
+  ],
+  "themes": [
+    {
+      "id": "th_belonging",
+      "name": "Belonging & Its Costs",
+      "description": "The human need to find a place — in space, in time, in the body politic — and the recurring discovery that belonging is never simply given.",
+      "color": "#7B5E8A"
+    },
+    {
+      "id": "th_time_power",
+      "name": "Time, Power & the Right Moment",
+      "description": "The moment that arrives and must be taken; the exile that stretches without end; the experiment in collective power that must be renewed in every generation or quietly dies.",
+      "color": "#C2820A"
+    },
+    {
+      "id": "th_translation",
+      "name": "Language, Identity & the Limits of Translation",
+      "description": "Each word a small proof that languages do not merely describe the world but carve different shapes of experience — and that translation is always a kind of exile.",
+      "color": "#2E6B6B"
+    }
+  ],
+  "seasons": [
+    { "id": "season_1", "name": "Season One" }
+  ],
+  "episodes": [
+    {
+      "id": "ep_01",
+      "seasonId": "season_1",
+      "number": "01",
+      "title": "When Faith and Doubt Hold Hands | with Elif Shafak",
+      "date": "2026-06-23",
+      "themeIds": ["th_belonging", "th_time_power", "th_translation"]
+    }
+  ],
+  "events": [],
+  "words": [
+    {
+      "id": "w_gurbet",
+      "text": "Gurbet",
+      "ipa": "/ɡuɾˈbɛt/",
+      "etymology": "Arabic غُرْبَة (ghurba, 'the condition of being a stranger') via Ottoman Turkish, 13th–14th c. The Arabic root gharaba shares its origin with the word for 'west' — the direction of the setting sun, of withdrawal, of departure.",
+      "definition": "Gurbet is the weight of distance made emotional — the particular gravity of a life lived at an angle to the place that made you. It is not mere absence but the ongoing awareness of absence, a slow ache that occupies the body the way weather occupies a valley. To be in gurbet is to carry your homeland inside you like a stone that never grows lighter.",
+      "synonyms": ["exile", "estrangement", "hasret"],
+      "phonemes": [],
+      "rarity": 3,
+      "weightBearing": true,
+      "speakerIds": ["s_elif"],
+      "episodeIds": ["ep_01"],
+      "themeIds": ["th_belonging", "th_translation"],
+      "videoRefs": [
+        { "url": "https://youtu.be/XvIjph0xPK0?t=2642", "label": "Elif Shafak on Gurbet", "timestamp": "44:02" }
+      ],
+      "createdAt": "2026-06-23T12:00:00.000Z"
+    },
+    {
+      "id": "w_kairos",
+      "text": "Kairos",
+      "ipa": "/ˈkaɪ.rɒs/",
+      "etymology": "Ancient Greek καιρός (kairós), pre-Homeric; linked to archery — the exact moment an arrow may be released with sufficient force to penetrate — and to weaving — the moment the shuttle passes through opened threads. May share a root with κεῖρω (keirō, 'to cut'): the moment that cuts through time. Codified philosophically in the 5th–4th century BCE.",
+      "definition": "Kairos is the crack in the surface of ordinary time through which something essential passes — not a quantity of time but a quality of it, the difference between the clock's tick and the held breath before a decision. Where chronos spreads time out like a flat road, kairos is the crossroads where the road rises suddenly to meet you. It is the archer's release, the weaver's shuttle, the moment that will not come again in quite the same form.",
+      "synonyms": ["opportunitas", "the nick of time", "the right moment"],
+      "phonemes": [],
+      "rarity": 2,
+      "weightBearing": true,
+      "speakerIds": ["s_elif"],
+      "episodeIds": ["ep_01"],
+      "themeIds": ["th_time_power", "th_translation"],
+      "videoRefs": [
+        { "url": "https://youtu.be/XvIjph0xPK0?t=4792", "label": "Elif Shafak on Kairos", "timestamp": "1:19:52" }
+      ],
+      "createdAt": "2026-06-23T12:10:00.000Z"
+    },
+    {
+      "id": "w_democracy",
+      "text": "Democracy",
+      "ipa": "/dɪˈmɒk.rə.si/",
+      "etymology": "Ancient Greek δημοκρατία (dēmokratía): δῆμος (dêmos, 'the people, the common people of a city-state') + κράτος (krátos, 'rule, power, strength'). First attested c. 470 BCE in Aeschylus's The Suppliants. Entered English via Middle French démocratie and Latin democratia, c. 1530s.",
+      "definition": "Democracy is the audacious proposition that those who must live under a law should have a hand in writing it — a word forged from the clay of the people and the fire of power, two substances history has never entirely agreed should be mixed. It carries within it an ancient tension: between the wisdom of the crowd and the tyranny of the majority, between the ideal inscribed in marble and the messy, contestable practice of governance. To say the word slowly is to hear both a promise and a question that centuries of political experiment have not yet fully answered.",
+      "synonyms": ["self-governance", "popular sovereignty", "res publica"],
+      "phonemes": [],
+      "rarity": 1,
+      "weightBearing": true,
+      "speakerIds": ["s_elif"],
+      "episodeIds": ["ep_01"],
+      "themeIds": ["th_time_power", "th_belonging"],
+      "videoRefs": [
+        { "url": "https://youtu.be/XvIjph0xPK0?t=1287", "label": "Elif Shafak on Democracy", "timestamp": "21:27" }
+      ],
+      "createdAt": "2026-06-23T12:20:00.000Z"
+    }
+  ],
+  "edges": [
+    {
+      "fromId": "w_gurbet",
+      "toId": "w_democracy",
+      "weight": 0.72
+    },
+    {
+      "fromId": "w_kairos",
+      "toId": "w_democracy",
+      "weight": 0.65
+    },
+    {
+      "fromId": "w_gurbet",
+      "toId": "w_kairos",
+      "weight": 0.58
+    }
+  ],
+  "customLenses": [],
+  "settings": {
+    "palette": "night",
+    "scale": 1.0,
+    "brightness": 1.0,
+    "starSat": 1.0,
+    "drift": 0.40,
+    "breath": 0.30,
+    "rotate": 0,
+    "figuresOn": true,
+    "figuresOp": 0.22,
+    "halosOn": true,
+    "halosOp": 0.55,
+    "clusterLabelsOn": true,
+    "clusterLabelsOp": 0.55,
+    "edgesOn": true,
+    "edgeIn": 0.55,
+    "edgeOut": 0.08,
+    "edgesHoverOnly": false,
+    "ghostMode": "dim",
+    "ghostOp": 0.18,
+    "meteorsEnabled": true,
+    "meteorsDensity": 3,
+    "meteorsBrightness": 0.7,
+    "meteorsSpeed": 1.0,
+    "transitionSec": 1.4,
+    "labelsOn": true,
+    "driftOn": true,
+    "recording": { "fps": 60 }
+  }
+}
